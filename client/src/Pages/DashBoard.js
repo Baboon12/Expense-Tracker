@@ -47,12 +47,12 @@ export default function DashBoard(props) {
   return (
     <div>
       <div className="lg:grid lg:grid-cols-5 h-screen font-lexend overflow-y-scroll overflow-x-clip">
-        <div className="col-span-1 p-4 bg-rp-black text-jp-yellow">
+        <div className="col-span-1 p-4 bg-rp-black text-jp-pink">
           <div className="lg:inline flex">
             <Link to="/">
               <ul className="cursor-pointer">
                 <li className="px-2 mt-2 py-1">
-                  <h1 className="lg:text-3xl text-lg font-bold">
+                  <h1 className="text-rp-pink lg:text-4xl font-semibold text-xl">
                     Expense Tracker
                   </h1>
                 </li>
@@ -132,7 +132,7 @@ export default function DashBoard(props) {
             </ul>
             <div className="lg:hidden flex">
               <button
-                className="ml-32 bg-rp-yellow rounded-lg "
+                className="ml-32 bg-rp-pink rounded-lg "
                 onClick={() => setIsMobile(!isMobile)}
               >
                 {isMobile ? (
@@ -156,8 +156,8 @@ export default function DashBoard(props) {
                   onClick={selectLink1}
                   className={
                     active === "1"
-                      ? "text-rp-yellow flex text-2xl p-2 pt-8"
-                      : "text-rp-yellow  w-fit  flex text-2xl  pt-8"
+                      ? "text-rp-pink flex text-2xl p-2 pt-8"
+                      : "text-rp-pink  w-fit  flex text-2xl  pt-8"
                   }
                 >
                   <span className="mx-4">
@@ -178,8 +178,8 @@ export default function DashBoard(props) {
                   onClick={selectLink2}
                   className={
                     active === "2"
-                      ? "text-rp-yellow flex text-2xl p-2 pt-4"
-                      : "text-rp-yellow flex text-2xl p-2 pt-4"
+                      ? "text-rp-pink flex text-2xl p-2 pt-4"
+                      : "text-rp-pink flex text-2xl p-2 pt-4"
                   }
                 >
                   <span className="mx-4">
@@ -200,8 +200,8 @@ export default function DashBoard(props) {
                   onClick={selectLink3}
                   className={
                     active === "3"
-                      ? "text-rp-yellow flex text-2xl p-2"
-                      : "text-rp-yellow flex text-2xl p-2"
+                      ? "text-rp-pink flex text-2xl p-2"
+                      : "text-rp-pink flex text-2xl p-2"
                   }
                 >
                   <span className="mx-4">
@@ -224,7 +224,7 @@ export default function DashBoard(props) {
               <div className="ml-6  mt-4 bottom-5 left-16 pb-6 ">
                 <button
                   onClick={handleLogOut}
-                  className="bg-mj-yellow px-4 py-3 flex rounded-md font-bold duration-300 ease-out hover:scale-110"
+                  className="bg-mj-pink px-4 py-3 flex rounded-md font-bold duration-300 ease-out hover:scale-110"
                 >
                   <span>
                     <svg
@@ -252,7 +252,7 @@ export default function DashBoard(props) {
         <div className=" lg:block absolute bottom-14 z-50 right-5 lg:bottom-20 lg:left-16 lg:right-0">
           <button
             onClick={props.openModalExpense}
-            className="bg-mj-yellow px-4 py-3 flex rounded-md font-bold duration-300 ease-out hover:scale-110"
+            className="bg-mj-pink px-4 py-3 flex rounded-md font-bold duration-300 ease-out hover:scale-110"
           >
             <span>
               <svg
@@ -274,7 +274,7 @@ export default function DashBoard(props) {
         <div className="hidden lg:block lg:absolute bottom-5 left-16">
           <button
             onClick={handleLogOut}
-            className="bg-mj-yellow px-4 py-3 flex rounded-md font-bold duration-300 ease-out hover:scale-110"
+            className="bg-mj-pink px-4 py-3 flex rounded-md font-bold duration-300 ease-out hover:scale-110"
           >
             <span>
               <svg

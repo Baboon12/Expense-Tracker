@@ -16,18 +16,19 @@ export default function MainAnalysis(props) {
           {clicked ? (
             <Scrollbars
               style={{ width: 540, height: 640 }}
-              className="lg:mt-8 -mt-1 lg:ml-24 ml-3"
+              // className="lg:mt-8 -mt-1 lg:ml-24 ml-1"
+              className="lg:mt-8 -mt-1 lg:ml-12 ml-1"
             >
               {listExpense
                 ? listExpense.map((item) => {
-                    return (
-                      <List
-                        setDeleteId={props.setDeleteId}
-                        openModalConfirm={props.openModalConfirm}
-                        expense={item}
-                      />
-                    );
-                  })
+                  return (
+                    <List
+                      setDeleteId={props.setDeleteId}
+                      openModalConfirm={props.openModalConfirm}
+                      expense={item}
+                    />
+                  );
+                })
                 : null}
             </Scrollbars>
           ) : null}
@@ -61,17 +62,18 @@ export default function MainAnalysis(props) {
             <Scrollbars
               style={{ width: 540, height: 640 }}
               className="lg:mt-8 -mt-1 lg:ml-24 ml-1"
+            // className="lg:mt-8 -mt-1 lg:ml-12 ml-1"
             >
               {listExpense
                 ? listExpense.map((item) => {
-                    return (
-                      <List
-                        setDeleteId={props.setDeleteId}
-                        openModalConfirm={props.openModalConfirm}
-                        expense={item}
-                      />
-                    );
-                  })
+                  return (
+                    <List
+                      setDeleteId={props.setDeleteId}
+                      openModalConfirm={props.openModalConfirm}
+                      expense={item}
+                    />
+                  );
+                })
                 : null}
             </Scrollbars>
           ) : null}

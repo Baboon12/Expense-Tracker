@@ -75,7 +75,7 @@ export default function DailySpendAnalysis() {
         <h1 className="font-bold text-xl font-lexand text-slate-300 mr-3 mt-3">
           Today's Spending
         </h1>
-        <span className="font-bold text-2xl font-lexend text-mj-black bg-rp-yellow p-3 rounded-md">
+        <span className="font-bold text-2xl font-lexend text-mj-black bg-rp-pink p-3 rounded-md">
           {total}
         </span>
       </div>

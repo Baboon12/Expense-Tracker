@@ -23,7 +23,7 @@ export default function ConfirmDelete(props) {
     <div className="font-lexand">
       <div>
         <div>
-          <h1 className="text-rp-yellow font-bold text-xl w-fit ml-10">
+          <h1 className="text-rp-pink font-bold text-xl w-fit ml-10">
             Are you sure ?
           </h1>
         </div>
@@ -38,7 +38,7 @@ export default function ConfirmDelete(props) {
           ) : (
             <button
               onClick={HandleDelete}
-              className="py-2 px-4 rounded-md hover:scale-110 duration-150 ease-out font-bold font-lexend bg-rp-yellow mr-4"
+              className="py-2 px-4 rounded-md hover:scale-110 duration-150 ease-out font-bold font-lexend bg-rp-pink mr-4"
             >
               Delete
             </button>
@@ -46,7 +46,7 @@ export default function ConfirmDelete(props) {
 
           <button
             onClick={props.closeModalConfirm}
-            className="py-2 px-4 rounded-md hover:scale-110 duration-150 ease-out font-bold font-lexand bg-rp-yellow"
+            className="py-2 px-4 rounded-md hover:scale-110 duration-150 ease-out font-bold font-lexand bg-rp-pink"
           >
             No
           </button>
