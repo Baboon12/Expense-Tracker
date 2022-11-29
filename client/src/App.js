@@ -12,10 +12,10 @@ import Main from "./Pages/Main";
 import MainAnalysis from "./Pages/MainAnalysis";
 import MainSpendAnalysis from "./Pages/MainSpendAnalysis";
 import MainDaily from "./Pages/MainDaily";
-import Developers from "./Pages/Aboutus";
+// import Developers from "./Pages/Aboutus";
 import ConfirmDelete from "./Pages/ConfirmDelete";
 import { Scrollbars } from "react-custom-scrollbars";
-import Contact from "./Pages/contactUs";
+// import Contact from "./Pages/contactUs";
 
 Modal.setAppElement("#root");
 
@@ -388,7 +388,7 @@ function App() {
             />
           </svg>
         </button>
-        <Contact closeModalContact={closeModalContact} />
+        {/* <Contact closeModalContact={closeModalContact} /> */}
       </Modal>
     </Scrollbars>
   );
