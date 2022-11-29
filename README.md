@@ -1,41 +1,54 @@
-# Expense Tracker
 
-A brief description of what this project does and who it's for
+# Expense Tracker System
+
+The Project “Expense Tracker” is developed to manage the daily expenses in a more
+efficient and manageable way. By using this application we can reduce the manual calculations of the daily
+expenses and keep track of the expenditure. In this application, user can provide his income to calculate his
+total expenses per day and these results will be stored for each user.Tracking expenses can be a relatively simple matter and can provide you so much information about your spending habits 
+
+
+## Demo
+
+
 
 
 ## Steps for Installtion/Deployment
 
-To deploy this project on localhost run 
+To deploy this project on localhost run
 
 ```bash
-  git clone
+   git clone
 ```
 In Root Directory, run
-
 ```bash
-  npm install
+   npm install
 ```
-
 ```bash
-  node app.js
+    node app.js
 ```
 Go to client Directory and run
-
 ```bash
   cd client
-```
-
+  ```
 ```bash
   npm install
-```
-
+  ```
 ```bash
-  npm run start
-```
+    npm run start
+  ```
+
 ## Environment Variables
 
 To run this project, you will need to add the following environment variables to your .env file
 
-`MONGODB`
+`SECRET_KEY`: For verifying jwt tokens
 
-`SECRETKEY`
+`ANOTHER_API_KEY`: contains the dbURl of MongoDB Connection
+
+
+## Authors
+
+- [Aamir Baugwala](https://www.github.com/Aamir2709)
+- [Bhavya Sura](https://www.github.com/Baboon12)
+- [Prathamesh Wadiya](https://www.github.com/PrathmeshDineshWadiya)
+
