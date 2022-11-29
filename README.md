@@ -8,6 +8,9 @@ total expenses per day and these results will be stored for each user.Tracking e
 
 
 ## Demo
+The Landing Page
+![image](https://user-images.githubusercontent.com/84448909/204596854-238d37bf-66b1-4da4-a315-102aee440c86.png)
+
 
 
 
