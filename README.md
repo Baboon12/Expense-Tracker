@@ -50,7 +50,7 @@ Go to client Directory and run
   npm install
   ```
 ```bash
-    npm run start
+  npm run start
   ```
 
 ## Environment Variables
